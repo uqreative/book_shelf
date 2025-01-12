@@ -9,8 +9,7 @@ body{margin:0;padding:0;box-sizing:border-box}
     width: 80%;
     margin-inline: auto;
     
-    &>section:nth-child(1){
-        background-color: red; 
+    &>section:nth-child(1){ 
         grid-area: 1/3 span;
         display: flex;
         flex-direction: column;
